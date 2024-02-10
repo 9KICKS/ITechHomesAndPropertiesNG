@@ -73,18 +73,15 @@
 }
 
 .picture-content .sign-up-button {
-    background-color: transparent;
-    border: 1px solid white;
-    color: white;
     display: flex;
+    width: 200px;
+    padding: 16px;
     justify-content: center;
     align-items: center;
-    padding: 10px 16px;
-    width: 165px;
-    height: 44px;
-    border-radius: 10px;
-    cursor: pointer;
-    margin-right: 20px;
+    gap: 6px;
+    border-radius: 8px;
+    border: 1px solid #F8F8F8;
+    background: transparent;
 }
 
 .picture-content .sign-up-button:hover {
@@ -95,17 +92,16 @@
 
 .picture-content .login-button {
     background-color: #7d0007;
-    border: 1px solid #7d0007;
     color: white;
     display: flex;
+    width: 200px;
+    padding: 16px;
     justify-content: center;
     align-items: center;
-    padding: 10px 16px;
-    width: 165px;
-    height: 44px;
-    border-radius: 10px;
-    cursor: pointer;
-    margin-right: 20px;
+    gap: 6px;
+    border-radius: 8px;
+    border: 1px solid #7D0007;
+    box-shadow: 0 1px 2px 0 #363637;
 }
 
 .picture-content .login-button:hover {
@@ -167,7 +163,7 @@
     flex-direction: column;
     align-items: center;
     gap: 64px;
-    background: #fff5f5;
+    background: #fff3f3;
     margin-top: 30px;
 }
 
