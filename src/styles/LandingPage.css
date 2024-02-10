@@ -1030,87 +1030,6 @@
         overflow: hidden;
     }
 
-    .header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 80px;
-        background-color: white;
-    }
-
-    .header-left {
-        display: flex;
-        align-items: center;
-        margin-left: -90px;
-    }
-
-    .company-logo {
-        width: 40px;
-        height: auto;
-        margin-right: 20px;
-    }
-
-    .header-link {
-        text-decoration: none;
-        color: #8f8f8f;
-        font-weight: bold;
-        margin-right: 10px;
-        font-size: 6px;
-        line-height: 6px;
-    }
-
-    .header-link:hover {
-        color: #7d0007;
-    }
-
-    .header-right {
-        display: flex;
-        margin-left: -4px;
-    }
-
-    .sign-up-button,
-    .login-button {
-        background-color: transparent;
-        border: 1px solid #7d0007;
-        color: #7d0007;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 60px;
-        height: 30px;
-        border-radius: 10px;
-        cursor: pointer;
-        font-size: 8px;
-    }
-
-    .sign-up-button {
-        margin-left: 10px;
-    }
-
-    .login-button {
-        margin-left: -10px;
-    }
-
-    .sign-up-button:hover {
-        background-color: #7d0007;
-        color: white;
-    }
-
-    .login-button {
-        background-color: #7d0007;
-        color: white;
-        border: none;
-    }
-
-    .login-button:hover {
-        background-color: white;
-        color: #630006;
-        border: 1px solid #7d0007;
-    }
-
     .picture-frame-container {
         position: relative;
         text-align: center;
@@ -1136,11 +1055,12 @@
         color: #FFF;
         text-align: center;
         font-family: Poppins, sans-serif;
-        font-size: 14px;
+        font-size: 15px;
         font-style: normal;
         font-weight: 500;
         line-height: 90px;
-        margin-top: -20px;
+        letter-spacing: -1.44px;
+        margin-top: 90px;
     }
 
     .picture-content h2 {
@@ -1150,62 +1070,46 @@
         font-size: 5px;
         font-style: normal;
         font-weight: 400;
-        line-height: 14px;
-        margin-top: -40px;
+        line-height: 10px;
+        margin-top: -50px;
     }
 
     .picture-content-buttons {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: -1px;
     }
 
-    .picture-content-buttons {
-        margin-left: 10px;
-
+    .picture-content-buttons button {
+        margin: 0 10px 100px;
     }
 
     .picture-content .sign-up-button {
-        background-color: transparent;
-        border: 1px solid white;
-        color: white;
         display: flex;
+        width: 100px;
+        height: 50px;
+        font-size: 12px;
         justify-content: center;
         align-items: center;
-        padding: 10px 16px;
-        width: 100px;
-        height: auto;
-        border-radius: 10px;
-        cursor: pointer;
-        margin-right: 20px;
-    }
-
-    .picture-content .sign-up-button:hover {
-        background-color: #7d0007;
-        color: white;
-        border: #7d0007;
+        gap: 6px;
+        border-radius: 8px;
+        border: 1px solid #F8F8F8;
+        background: transparent;
     }
 
     .picture-content .login-button {
         background-color: #7d0007;
-        border: 1px solid #7d0007;
         color: white;
         display: flex;
+        width: 100px;
+        height: 50px;
+        font-size: 12px;
         justify-content: center;
         align-items: center;
-        padding: 10px 16px;
-        width: 100px;
-        height: auto;
-        border-radius: 10px;
-        cursor: pointer;
-        margin-right: 20px;
-    }
-
-    .picture-content .login-button:hover {
-        background-color: transparent;
-        color: white;
-        border: 1px solid white;
+        gap: 6px;
+        border-radius: 8px;
+        border: 1px solid #7D0007;
+        box-shadow: 0 1px 2px 0 #363637;
     }
 
     .about-itech-container {
@@ -1222,10 +1126,10 @@
         color: #292929;
         text-align: center;
         font-family: Poppins, sans-serif;
-        font-size: 24px;
+        font-size: 36px;
         font-style: normal;
         font-weight: 500;
-        line-height: 32px;
+        line-height: 36px;
         letter-spacing: -1.2px;
     }
 
@@ -1234,35 +1138,35 @@
         color: #656565;
         text-align: center;
         font-family: Poppins, sans-serif;
-        font-size: 16px;
+        font-size: 24px;
         font-style: normal;
         font-weight: 400;
         line-height: 32px;
     }
 
     .the-team-container {
+        margin-top: 20px;
         display: grid;
         place-items: center;
         width: 100%;
-        height: 100vh;
+        height: 45vh;
         text-align: center;
-        margin-top: -120px;
     }
 
-    .the-team-container img {
-        width: 300px;
+    .the-team-container svg {
+        width: 350px;
         height: auto;
     }
 
     .meet-the-team-container {
+        margin-top: -20px;
         display: flex;
         width: 100%;
         padding: 96px 0;
         flex-direction: column;
         align-items: center;
         gap: 64px;
-        background: #fff5f5;
-        margin-top: -100px;
+        background: #ffeeef;
     }
 
     .meet-our-team h1 {
@@ -1281,10 +1185,10 @@
         font-family: Poppins, sans-serif;
         margin-top: 20px;
         text-align: center;
-        font-size: 10px;
+        font-size: 24px;
         font-style: normal;
         font-weight: 400;
-        line-height: 30px;
+        line-height: 32px;
         align-self: stretch;
     }
 
@@ -1295,189 +1199,67 @@
         width: 100%;
         margin-top: 70px;
         text-align: center;
+        gap: 30px;
     }
 
     .team-heads img {
-        width: 280px;
+        width: 300px;
         height: auto;
-    }
-
-    .rest-of-the-team {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 40px;
     }
 
     .rest-of-the-team img {
-        width: 280px;
+        margin-top: 10px;
+        width: 290px;
         height: auto;
-    }
-
-    .our-exclusive-estates-container {
-        display: flex;
-        padding: 96px 0;
-        flex-direction: column;
-        align-items: center;
-        gap: 64px;
-        align-self: stretch;
-    }
-
-    .our-exclusive-estates-container h1 {
-        color: #292929;
-        text-align: center;
-        font-family: Poppins, sans-serif;
-        font-size: 60px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 72px;
-        letter-spacing: -1.2px;
-    }
-
-    .our-exclusive-estates-container h2 {
-        color: #656565;
-        text-align: center;
-        font-family: Poppins, sans-serif;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 32px;
-        margin-top: -20px;
+        margin-right: 825px;
     }
 
     .estates {
-        display: flex;
+        gap: 100px;
+        display: grid;
         align-items: center;
-        gap: 10px;
     }
 
     .estates img {
-        width: 150px;
+        width: 300px;
         height: auto;
     }
 
     .comment-section {
-        background: #fff5f5;
+        background: #ffeeef;
         display: flex;
         width: 100%;
-        padding: 96px 0;
+        height: 100vh;
         flex-direction: column;
         align-items: center;
     }
 
     .post {
         display: grid;
-        justify-content: space-between;
-        align-items: center;
     }
 
-    .post img:nth-child(1) {
-        width: 280px;
-        height: auto;
-        margin-left: 30px;
-        margin-bottom: 20px;
-    }
-
-    .post img:nth-child(2) {
+    .post img:first-child {
         width: 300px;
         height: auto;
-        margin-right: 40px;
-    }
-
-    .our-impact-container {
-        display: flex;
-        width: 100%;
-        padding: 96px 0;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 64px;
-    }
-
-    .our-impact-container h1 {
-        color: #101828;
-        text-align: center;
-        font-family: Inter, sans-serif;
-        font-size: 36px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 44px;
-        letter-spacing: -0.72px;
-    }
-
-    .our-impact-container h2 {
-        color: #656565;
-        text-align: center;
-        font-family: Poppins, sans-serif;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 30px;
         margin-top: -50px;
     }
 
-    .our-impact-container img {
-        width: 280px;
+    .post img:nth-child(2) {
+        width: 400px;
         height: auto;
+        margin-left: -20px;
+        padding-top: 10px;
     }
 
-    .protect-container img {
-        width: 100%;
-    }
-
-    .contact-us-container {
-        display: flex;
-        padding: 96px 0;
-        flex-direction: column;
-        align-items: center;
-        gap: 64px;
-        background: #fff5f5;
-        width: 100%;
-        margin-top: -6px;
-    }
-
-    .contact-info {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-        align-self: stretch;
-    }
-
-    .contact-info h2 {
-        color: #7D0007;
-        text-align: center;
-        font-family: Poppins, sans-serif;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 24px;
-    }
-
-    .contact-info h1 {
-        color: #292929;
-        text-align: center;
-        font-family: Poppins, sans-serif;
-        font-size: 36px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 44px;
-        letter-spacing: -0.72px;
-    }
-
-    .contact-info h3 {
-        color: #656565;
-        text-align: center;
-        font-family: Inter, sans-serif;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 30px;
+    .our-impact-container img {
+        width: 300px;
+        height: auto;
     }
 
     .contacts {
         display: grid;
         place-items: center;
+        margin-left: 25px;
     }
 
     .contacts img {
@@ -1485,53 +1267,23 @@
     }
 
     .contacts img:nth-child(2) {
-        width: 280px;
-    }
-
-    .footer {
-        display: grid;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    .footer-logo {
-        width: 120px;
-        height: auto;
-        margin: 80px auto 20px;
-        display: block;
+        width: 300px;
     }
 
     .first-footer-section {
         display: grid;
-        margin-top: 50px;
+        margin-top: 10px;
         text-align: center;
         place-content: center;
     }
 
-    .first-footer-section a {
-        text-decoration: none;
-        color: #656565;
-        font-family: Poppins, sans-serif;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 24px;
-        padding: 20px;
-        margin-bottom: 30px;
-    }
-
-    .first-footer-section a:hover {
-        color: #7d0007;
-    }
-
     .second-footer-section {
+        display: grid;
         padding-top: 32px;
         border-top: 1px solid #EAECF0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+        margin-bottom: 100px;
+        width: auto;
+        place-items: center;
     }
 
     .second-footer-section h3 {
@@ -1540,28 +1292,9 @@
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
-        line-height: 24px;
-        margin-left: 562px;
-        margin-top: 30px;
-    }
-
-    .second-footer-section-links {
-        display: flex;
-        margin-top: 80px;
-    }
-
-    .footer-link {
-        text-decoration: none;
-        color: #7C7C7C;
-        font-family: Poppins, sans-serif;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
-    }
-
-    .footer-link:hover {
-        color: #7d0007;
+        margin-left: 3px;
+        padding-top: 30px;
+        padding-bottom: 50px;
     }
 }
 
@@ -1607,7 +1340,7 @@
         font-weight: 500;
         line-height: 90px;
         letter-spacing: -1.44px;
-        margin-top: 30px;
+        margin-top: 90px;
     }
 
     .picture-content h2 {
@@ -1618,14 +1351,14 @@
         font-style: normal;
         font-weight: 400;
         line-height: 10px;
-        padding-top: 10px;
+        margin-top: -50px;
     }
 
     .picture-content-buttons {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 20px;
+        margin-bottom: 50px;
     }
 
     .picture-content-buttons button {
@@ -1707,6 +1440,7 @@
     }
 
     .meet-the-team-container {
+        margin-top: -80px;
         display: flex;
         width: 100%;
         padding: 96px 0;
@@ -1789,12 +1523,14 @@
         width: 300px;
         height: auto;
         margin-top: -30px;
+        margin-left: 25px;
     }
 
     .post img:nth-child(2) {
         width: 400px;
         height: auto;
         margin-left: -20px;
+        padding-top: 10px;
     }
 
     .our-impact-container img {
@@ -1839,6 +1575,8 @@
         font-style: normal;
         font-weight: 400;
         margin-left: 3px;
+        padding-top: 30px;
+        padding-bottom: 50px;
     }
 }
 
@@ -1852,78 +1590,6 @@
         font-size: 16px;
         line-height: 24px;
         overflow: hidden;
-    }
-
-    .header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 80px;
-        background-color: white;
-    }
-
-    .header-left {
-        display: flex;
-        align-items: center;
-        margin-left: -85px;
-    }
-
-    .company-logo {
-        width: 60px;
-        height: auto;
-        margin-right: 20px;
-    }
-
-    .header-link {
-        text-decoration: none;
-        color: #8f8f8f;
-        font-weight: bold;
-        margin-right: 20px;
-        font-size: 8px;
-        line-height: 10px;
-    }
-
-    .header-link:hover {
-        color: #7d0007;
-    }
-
-    .header-right {
-        display: flex;
-        margin-left: -5px;
-    }
-
-    .sign-up-button,
-    .login-button {
-        background-color: transparent;
-        border: 1px solid #7d0007;
-        color: #7d0007;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100px;
-        height: 30px;
-        border-radius: 10px;
-        cursor: pointer;
-    }
-
-    .sign-up-button:hover {
-        background-color: #7d0007;
-        color: white;
-    }
-
-    .login-button {
-        background-color: #7d0007;
-        color: white;
-        border: none;
-    }
-
-    .login-button:hover {
-        background-color: white;
-        color: #630006;
-        border: 1px solid #7d0007;
     }
 
     .picture-frame-container {
@@ -1955,7 +1621,8 @@
         font-style: normal;
         font-weight: 500;
         line-height: 90px;
-        width: 900px;
+        letter-spacing: -1.44px;
+        margin-top: 90px;
     }
 
     .picture-content h2 {
@@ -1965,61 +1632,47 @@
         font-size: 7px;
         font-style: normal;
         font-weight: 400;
-        line-height: 14px;
-        margin-top: -30px;
+        line-height: 12px;
+        margin-top: -50px;
     }
 
     .picture-content-buttons {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 20px;
+        margin-bottom: 50px;
     }
 
     .picture-content-buttons button {
-        margin: 0 10px;
+        margin: 0 10px 40px;
     }
 
     .picture-content .sign-up-button {
-        background-color: transparent;
-        border: 1px solid white;
-        color: white;
         display: flex;
+        width: 100px;
+        height: 50px;
+        font-size: 12px;
         justify-content: center;
         align-items: center;
-        padding: 10px 16px;
-        width: 165px;
-        height: 44px;
-        border-radius: 10px;
-        cursor: pointer;
-        margin-right: 20px;
-    }
-
-    .picture-content .sign-up-button:hover {
-        background-color: #7d0007;
-        color: white;
-        border: #7d0007;
+        gap: 6px;
+        border-radius: 8px;
+        border: 1px solid #F8F8F8;
+        background: transparent;
     }
 
     .picture-content .login-button {
         background-color: #7d0007;
-        border: 1px solid #7d0007;
         color: white;
         display: flex;
+        width: 100px;
+        height: 50px;
+        font-size: 12px;
         justify-content: center;
         align-items: center;
-        padding: 10px 16px;
-        width: 165px;
-        height: 44px;
-        border-radius: 10px;
-        cursor: pointer;
-        margin-right: 20px;
-    }
-
-    .picture-content .login-button:hover {
-        background-color: transparent;
-        color: white;
-        border: 1px solid white;
+        gap: 6px;
+        border-radius: 8px;
+        border: 1px solid #7D0007;
+        box-shadow: 0 1px 2px 0 #363637;
     }
 
     .about-itech-container {
@@ -2036,10 +1689,10 @@
         color: #292929;
         text-align: center;
         font-family: Poppins, sans-serif;
-        font-size: 24px;
+        font-size: 36px;
         font-style: normal;
         font-weight: 500;
-        line-height: 32px;
+        line-height: 36px;
         letter-spacing: -1.2px;
     }
 
@@ -2048,35 +1701,35 @@
         color: #656565;
         text-align: center;
         font-family: Poppins, sans-serif;
-        font-size: 16px;
+        font-size: 24px;
         font-style: normal;
         font-weight: 400;
         line-height: 32px;
     }
 
     .the-team-container {
+        margin-top: 20px;
         display: grid;
         place-items: center;
         width: 100%;
-        height: 100vh;
+        height: 45vh;
         text-align: center;
-        margin-top: -150px;
     }
 
-    .the-team-container img {
-        width: 450px;
+    .the-team-container svg {
+        width: 350px;
         height: auto;
     }
 
     .meet-the-team-container {
+        margin-top: -50px;
         display: flex;
         width: 100%;
         padding: 96px 0;
         flex-direction: column;
         align-items: center;
         gap: 64px;
-        background: #fff5f5;
-        margin-top: -100px;
+        background: #ffeeef;
     }
 
     .meet-our-team h1 {
@@ -2095,10 +1748,10 @@
         font-family: Poppins, sans-serif;
         margin-top: 20px;
         text-align: center;
-        font-size: 15px;
+        font-size: 24px;
         font-style: normal;
         font-weight: 400;
-        line-height: 30px;
+        line-height: 32px;
         align-self: stretch;
     }
 
@@ -2109,238 +1762,92 @@
         width: 100%;
         margin-top: 70px;
         text-align: center;
+        gap: 30px;
     }
 
     .team-heads img {
-        width: 460px;
+        width: 400px;
         height: auto;
-    }
-
-    .rest-of-the-team {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 40px;
     }
 
     .rest-of-the-team img {
-        width: 460px;
+        margin-top: 10px;
+        width: 400px;
         height: auto;
-    }
-
-    .our-exclusive-estates-container {
-        display: flex;
-        padding: 96px 0;
-        flex-direction: column;
-        align-items: center;
-        gap: 64px;
-        align-self: stretch;
-    }
-
-    .our-exclusive-estates-container h1 {
-        color: #292929;
-        text-align: center;
-        font-family: Poppins, sans-serif;
-        font-size: 60px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 72px;
-        letter-spacing: -1.2px;
-    }
-
-    .our-exclusive-estates-container h2 {
-        color: #656565;
-        text-align: center;
-        font-family: Poppins, sans-serif;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 32px;
-        margin-top: -20px;
+        margin-left: 75px;
     }
 
     .estates {
-        display: flex;
+        gap: 100px;
+        display: grid;
         align-items: center;
     }
 
     .estates img {
-        width: 150px;
+        width: 400px;
         height: auto;
     }
 
     .comment-section {
-        background: #fff5f5;
+        background: #ffeeef;
         display: flex;
         width: 100%;
-        padding: 96px 0;
+        height: 70vh;
         flex-direction: column;
         align-items: center;
     }
 
     .post {
         display: grid;
-        justify-content: space-between;
-        align-items: center;
     }
 
-    .post img:nth-child(1) {
-        width: 350px;
+    .post img:first-child {
+        width: 300px;
         height: auto;
-        margin-left: 120px;
-        margin-bottom: 20px;
+        margin-top: -30px;
+        margin-left: 75px;
     }
 
     .post img:nth-child(2) {
-        width: 500px;
+        width: 400px;
         height: auto;
-        margin-right: 90px;
-    }
-
-    .our-impact-container {
-        display: flex;
-        width: 100%;
-        padding: 96px 0;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 64px;
-    }
-
-    .our-impact-container h1 {
-        color: #101828;
-        text-align: center;
-        font-family: Inter, sans-serif;
-        font-size: 36px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 44px;
-        letter-spacing: -0.72px;
-    }
-
-    .our-impact-container h2 {
-        color: #656565;
-        text-align: center;
-        font-family: Poppins, sans-serif;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 30px;
-        margin-top: -50px;
+        padding-top: 10px;
+        margin-left: 5px;
     }
 
     .our-impact-container img {
-        width: 430px;
+        width: 400px;
         height: auto;
-    }
-
-    .protect-container img {
-        width: 100%;
-    }
-
-    .contact-us-container {
-        display: flex;
-        padding: 96px 0;
-        flex-direction: column;
-        align-items: center;
-        gap: 64px;
-        background: #fff5f5;
-        width: 100%;
-        margin-top: -6px;
-    }
-
-    .contact-info {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-        align-self: stretch;
-    }
-
-    .contact-info h2 {
-        color: #7D0007;
-        text-align: center;
-        font-family: Poppins, sans-serif;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 24px;
-    }
-
-    .contact-info h1 {
-        color: #292929;
-        text-align: center;
-        font-family: Poppins, sans-serif;
-        font-size: 36px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 44px;
-        letter-spacing: -0.72px;
-    }
-
-    .contact-info h3 {
-        color: #656565;
-        text-align: center;
-        font-family: Inter, sans-serif;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 30px;
     }
 
     .contacts {
         display: grid;
         place-items: center;
+        margin-left: 25px;
     }
 
     .contacts img {
         margin-top: 50px;
     }
 
-    .footer {
-        display: grid;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    .footer-logo {
-        width: 120px;
-        height: auto;
-        margin: 80px auto 20px;
-        display: block;
+    .contacts img:nth-child(2) {
+        width: 350px;
     }
 
     .first-footer-section {
         display: grid;
-        margin-top: 50px;
+        margin-top: 10px;
         text-align: center;
         place-content: center;
     }
 
-    .first-footer-section a {
-        text-decoration: none;
-        color: #656565;
-        font-family: Poppins, sans-serif;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 24px;
-        padding: 20px;
-        margin-bottom: 30px;
-    }
-
-    .first-footer-section a:hover {
-        color: #7d0007;
-    }
-
     .second-footer-section {
+        display: grid;
         padding-top: 32px;
         border-top: 1px solid #EAECF0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+        margin-bottom: 100px;
+        width: auto;
+        place-items: center;
     }
 
     .second-footer-section h3 {
@@ -2349,28 +1856,9 @@
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
-        line-height: 24px;
-        margin-left: 562px;
-        margin-top: 30px;
-    }
-
-    .second-footer-section-links {
-        display: flex;
-        margin-top: 80px;
-    }
-
-    .footer-link {
-        text-decoration: none;
-        color: #7C7C7C;
-        font-family: Poppins, sans-serif;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
-    }
-
-    .footer-link:hover {
-        color: #7d0007;
+        margin-left: 3px;
+        padding-top: 30px;
+        padding-bottom: 50px;
     }
 }
 
