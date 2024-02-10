@@ -1,0 +1,3199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.itech-landing-page {
+    background-color: white;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    overflow: hidden;
+}
+
+.picture-frame-container {
+    position: relative;
+    text-align: center;
+}
+
+.picture-frame {
+    width: 98%;
+    height: auto;
+}
+
+.picture-content {
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    gap: 48px;
+    align-self: stretch;
+}
+
+.picture-content h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 90px;
+    letter-spacing: -1.44px;
+    width: 900px;
+}
+
+.picture-content h2 {
+    color: #EFEFEF;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    padding-top: 10px;
+}
+
+.picture-content-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.picture-content-buttons button {
+    margin: 0 10px;
+}
+
+.picture-content .sign-up-button {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+    width: 165px;
+    height: 44px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.picture-content .sign-up-button:hover {
+    background-color: #7d0007;
+    color: white;
+    border: #7d0007;
+}
+
+.picture-content .login-button {
+    background-color: #7d0007;
+    border: 1px solid #7d0007;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+    width: 165px;
+    height: 44px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.picture-content .login-button:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.about-itech-container {
+    margin-top: 60px;
+    max-width: 1280px;
+    padding: 0 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.about-itech-container h1 {
+    color: #292929;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 72px;
+    letter-spacing: -1.2px;
+}
+
+.about-itech-container h2 {
+    margin-top: 20px;
+    color: #656565;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.the-team-container {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.the-team-container svg {
+    width: 1216px;
+    height: 696px;
+}
+
+.meet-the-team-container {
+    display: flex;
+    width: 100%;
+    padding: 96px 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    background: #fff5f5;
+    margin-top: 30px;
+}
+
+.meet-our-team h1 {
+    color: #292929;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.72px;
+}
+
+.meet-our-team h2 {
+    color: #656565;
+    font-family: Poppins, sans-serif;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    align-self: stretch;
+}
+
+.team-heads {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 70px;
+    text-align: center;
+    gap: 30px;
+}
+
+.partner {
+    width: 400px;
+    height: auto;
+}
+
+.director {
+    margin-right: 10px;
+    width: 400px;
+    height: auto;
+}
+
+.coo {
+    margin-left: 10px;
+    width: 400px;
+    height: auto;
+}
+
+.rest-of-the-team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.rest-of-the-team img {
+    width: 1210px;
+    height: auto;
+}
+
+.our-exclusive-estates-container {
+    display: flex;
+    padding: 96px 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    align-self: stretch;
+}
+
+.our-exclusive-estates-container h1 {
+    color: #292929;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 72px;
+    letter-spacing: -1.2px;
+}
+
+.our-exclusive-estates-container h2 {
+    color: #656565;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: -20px;
+}
+
+.estates {
+    gap: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.estates img {
+    width: 300px;
+    height: auto;
+}
+
+.ileri {
+    margin-right: 20px;
+}
+
+.grande-estate {
+    margin-left: 20px;
+}
+
+.comment-section {
+    background: #fff5f5;
+    display: flex;
+    width: 100%;
+    padding: 96px 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user {
+    width: 350px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.comment {
+    width: 800px;
+    height: auto;
+}
+
+.our-impact-container {
+    display: flex;
+    width: 100%;
+    padding: 96px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+
+.our-impact-container h1 {
+    color: #101828;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.72px;
+}
+
+.our-impact-container h2 {
+    color: #656565;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: -50px;
+}
+
+.stats {
+    width: 1200px;
+    height: auto;
+}
+
+.protect {
+    width: 100%;
+}
+
+.contact-us-container {
+    display: flex;
+    padding: 96px 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    background: #fff5f5;
+    width: 100%;
+    margin-top: -6px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    align-self: stretch;
+}
+
+.contact-info h2 {
+    color: #7D0007;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.contact-info h1 {
+    color: #292929;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.72px;
+}
+
+.contact-info h3 {
+    color: #656565;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts img {
+    margin-top: 50px;
+}
+
+.contacts img:nth-child(2) {
+    margin-top: 73px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-logo {
+    width: 120px;
+    height: auto;
+    margin: 80px auto 20px;
+    display: block;
+}
+
+.first-footer-section {
+    display: flex;
+    margin-top: 10px;
+    text-align: center;
+    place-content: center;
+}
+
+.first-footer-section a {
+    text-decoration: none;
+    color: #656565;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.first-footer-section a:hover {
+    color: #7d0007;
+}
+
+.second-footer-section {
+    display: flex;
+    padding-top: 32px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    border-top: 1px solid #EAECF0;
+    margin-bottom: 100px;
+    width: auto;
+}
+
+.second-footer-section h3 {
+    color: #7C7C7C;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding-right: 550px;
+}
+
+.second-footer-section-links {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.second-footer-section a {
+    color: #7C7C7C;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.second-footer-section a:hover {
+    color: #7d0007;
+}
+
+@media (min-width: 280px) and (max-width: 320px) {
+    .itech-landing-page {
+        background-color: white;
+        width: 100%;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        overflow: hidden;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 80px;
+        background-color: white;
+    }
+
+    .header-left {
+        display: flex;
+        align-items: center;
+        margin-left: -90px;
+    }
+
+    .company-logo {
+        width: 40px;
+        height: auto;
+        margin-right: 20px;
+    }
+
+    .header-link {
+        text-decoration: none;
+        color: #8f8f8f;
+        font-weight: bold;
+        margin-right: 10px;
+        font-size: 6px;
+        line-height: 6px;
+    }
+
+    .header-link:hover {
+        color: #7d0007;
+    }
+
+    .header-right {
+        display: flex;
+        margin-left: -6px;
+    }
+
+    .sign-up-button,
+    .login-button {
+        background-color: transparent;
+        border: 1px solid #7d0007;
+        color: #7d0007;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 5px;
+    }
+
+    .sign-up-button {
+        margin-left: 10px;
+    }
+
+    .login-button {
+        margin-left: -8px;
+    }
+
+    .sign-up-button:hover {
+        background-color: #7d0007;
+        color: white;
+    }
+
+    .login-button {
+        background-color: #7d0007;
+        color: white;
+        border: none;
+    }
+
+    .login-button:hover {
+        background-color: white;
+        color: #630006;
+        border: 1px solid #7d0007;
+    }
+
+    .picture-frame-container {
+        position: relative;
+        text-align: center;
+    }
+
+    .picture-frame {
+        width: 98%;
+        height: auto;
+    }
+
+    .picture-content {
+        color: #fff;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        gap: 48px;
+        align-self: stretch;
+    }
+
+    .picture-content h1 {
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 90px;
+        margin-top: -20px;
+    }
+
+    .picture-content h2 {
+        color: #EFEFEF;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 4px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 10px;
+        margin-top: -40px;
+    }
+
+    .picture-content-buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -1px;
+    }
+
+    .picture-content-buttons {
+        margin-left: 10px;
+
+    }
+
+    .picture-content .sign-up-button {
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 16px;
+        width: 100px;
+        height: auto;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+
+    .picture-content .sign-up-button:hover {
+        background-color: #7d0007;
+        color: white;
+        border: #7d0007;
+    }
+
+    .picture-content .login-button {
+        background-color: #7d0007;
+        border: 1px solid #7d0007;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 16px;
+        width: 100px;
+        height: auto;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+
+    .picture-content .login-button:hover {
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+    }
+
+    .about-itech-container {
+        margin-top: 60px;
+        max-width: 1280px;
+        padding: 0 32px;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+        align-self: stretch;
+    }
+
+    .about-itech-container h1 {
+        color: #292929;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px;
+        letter-spacing: -1.2px;
+    }
+
+    .about-itech-container h2 {
+        margin-top: 20px;
+        color: #656565;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+    }
+
+    .the-team-container {
+        display: grid;
+        place-items: center;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        margin-top: -60px;
+    }
+
+    .the-team-container img {
+        width: 250px;
+        height: auto;
+    }
+
+    .meet-the-team-container {
+        display: flex;
+        width: 100%;
+        padding: 96px 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+        background: #fff5f5;
+        margin-top: -60px;
+    }
+
+    .meet-our-team h1 {
+        color: #292929;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 44px;
+        letter-spacing: -0.72px;
+    }
+
+    .meet-our-team h2 {
+        color: #656565;
+        font-family: Poppins, sans-serif;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 15px;
+        align-self: stretch;
+    }
+
+    .team-heads {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 70px;
+        text-align: center;
+    }
+
+    .team-heads img {
+        width: 250px;
+        height: auto;
+    }
+
+    .rest-of-the-team {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .rest-of-the-team img {
+        width: 250px;
+        height: auto;
+    }
+
+    .our-exclusive-estates-container {
+        display: flex;
+        padding: 96px 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+        align-self: stretch;
+    }
+
+    .our-exclusive-estates-container h1 {
+        color: #292929;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 72px;
+        letter-spacing: -1.2px;
+    }
+
+    .our-exclusive-estates-container h2 {
+        color: #656565;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        margin-top: -20px;
+    }
+
+    .estates {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .estates img {
+        width: 120px;
+        height: auto;
+    }
+
+    .comment-section {
+        background: #fff5f5;
+        display: flex;
+        width: 100%;
+        padding: 96px 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .post {
+        display: grid;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .post img:nth-child(1) {
+        width: 250px;
+        height: auto;
+        margin-left: 45px;
+        margin-bottom: 20px;
+    }
+
+    .post img:nth-child(2) {
+        width: 300px;
+        height: auto;
+        margin-right: 40px;
+    }
+
+    .our-impact-container {
+        display: flex;
+        width: 100%;
+        padding: 96px 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 64px;
+    }
+
+    .our-impact-container h1 {
+        color: #101828;
+        text-align: center;
+        font-family: Inter, sans-serif;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 44px;
+        letter-spacing: -0.72px;
+    }
+
+    .our-impact-container h2 {
+        color: #656565;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        margin-top: -50px;
+    }
+
+    .our-impact-container img {
+        width: 250px;
+        height: auto;
+    }
+
+    .protect-container img {
+        width: 100%;
+    }
+
+    .contact-us-container {
+        display: flex;
+        padding: 96px 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+        background: #fff5f5;
+        width: 100%;
+        margin-top: -6px;
+    }
+
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        align-self: stretch;
+    }
+
+    .contact-info h2 {
+        color: #7D0007;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+    }
+
+    .contact-info h1 {
+        color: #292929;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 44px;
+        letter-spacing: -0.72px;
+    }
+
+    .contact-info h3 {
+        color: #656565;
+        text-align: center;
+        font-family: Inter, sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+
+    .contacts {
+        display: grid;
+        place-items: center;
+    }
+
+    .contacts img {
+        margin-top: 50px;
+    }
+
+    .contacts img:nth-child(2) {
+        width: 270px;
+    }
+
+    .footer {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .footer-logo {
+        width: 120px;
+        height: auto;
+        margin: 80px auto 20px;
+        display: block;
+    }
+
+    .first-footer-section {
+        display: grid;
+        margin-top: 50px;
+        text-align: center;
+        place-content: center;
+    }
+
+    .first-footer-section a {
+        text-decoration: none;
+        color: #656565;
+        font-family: Poppins, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    .first-footer-section a:hover {
+        color: #7d0007;
+    }
+
+    .second-footer-section {
+        padding-top: 32px;
+        border-top: 1px solid #EAECF0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .second-footer-section h3 {
+        color: #7C7C7C;
+        font-family: Poppins, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        margin-left: 562px;
+        margin-top: 30px;
+    }
+
+    .second-footer-section-links {
+        display: flex;
+        margin-bottom: -50px;
+        padding-top: 50px;
+    }
+
+    .footer-link {
+        text-decoration: none;
+        color: #7C7C7C;
+        font-family: Poppins, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .footer-link:hover {
+        color: #7d0007;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 480px ) {
+    .itech-landing-page {
+        background-color: white;
+        width: 100%;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        overflow: hidden;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 80px;
+        background-color: white;
+    }
+
+    .header-left {
+        display: flex;
+        align-items: center;
+        margin-left: -90px;
+    }
+
+    .company-logo {
+        width: 40px;
+        height: auto;
+        margin-right: 20px;
+    }
+
+    .header-link {
+        text-decoration: none;
+        color: #8f8f8f;
+        font-weight: bold;
+        margin-right: 10px;
+        font-size: 6px;
+        line-height: 6px;
+    }
+
+    .header-link:hover {
+        color: #7d0007;
+    }
+
+    .header-right {
+        display: flex;
+        margin-left: -4px;
+    }
+
+    .sign-up-button,
+    .login-button {
+        background-color: transparent;
+        border: 1px solid #7d0007;
+        color: #7d0007;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 30px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 8px;
+    }
+
+    .sign-up-button {
+        margin-left: 10px;
+    }
+
+    .login-button {
+        margin-left: -10px;
+    }
+
+    .sign-up-button:hover {
+        background-color: #7d0007;
+        color: white;
+    }
+
+    .login-button {
+        background-color: #7d0007;
+        color: white;
+        border: none;
+    }
+
+    .login-button:hover {
+        background-color: white;
+        color: #630006;
+        border: 1px solid #7d0007;
+    }
+
+    .picture-frame-container {
+        position: relative;
+        text-align: center;
+    }
+
+    .picture-frame {
+        width: 98%;
+        height: auto;
+    }
+
+    .picture-content {
+        color: #fff;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        gap: 48px;
+        align-self: stretch;
+    }
+
+    .picture-content h1 {
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 90px;
+        margin-top: -20px;
+    }
+
+    .picture-content h2 {
+        color: #EFEFEF;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 5px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px;
+        margin-top: -40px;
+    }
+
+    .picture-content-buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -1px;
+    }
+
+    .picture-content-buttons {
+        margin-left: 10px;
+
+    }
+
+    .picture-content .sign-up-button {
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 16px;
+        width: 100px;
+        height: auto;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+
+    .picture-content .sign-up-button:hover {
+        background-color: #7d0007;
+        color: white;
+        border: #7d0007;
+    }
+
+    .picture-content .login-button {
+        background-color: #7d0007;
+        border: 1px solid #7d0007;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 16px;
+        width: 100px;
+        height: auto;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+
+    .picture-content .login-button:hover {
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+    }
+
+    .about-itech-container {
+        margin-top: 60px;
+        max-width: 1280px;
+        padding: 0 32px;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+        align-self: stretch;
+    }
+
+    .about-itech-container h1 {
+        color: #292929;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px;
+        letter-spacing: -1.2px;
+    }
+
+    .about-itech-container h2 {
+        margin-top: 20px;
+        color: #656565;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+    }
+
+    .the-team-container {
+        display: grid;
+        place-items: center;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        margin-top: -120px;
+    }
+
+    .the-team-container img {
+        width: 300px;
+        height: auto;
+    }
+
+    .meet-the-team-container {
+        display: flex;
+        width: 100%;
+        padding: 96px 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+        background: #fff5f5;
+        margin-top: -100px;
+    }
+
+    .meet-our-team h1 {
+        color: #292929;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 44px;
+        letter-spacing: -0.72px;
+    }
+
+    .meet-our-team h2 {
+        color: #656565;
+        font-family: Poppins, sans-serif;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        align-self: stretch;
+    }
+
+    .team-heads {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 70px;
+        text-align: center;
+    }
+
+    .team-heads img {
+        width: 280px;
+        height: auto;
+    }
+
+    .rest-of-the-team {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .rest-of-the-team img {
+        width: 280px;
+        height: auto;
+    }
+
+    .our-exclusive-estates-container {
+        display: flex;
+        padding: 96px 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+        align-self: stretch;
+    }
+
+    .our-exclusive-estates-container h1 {
+        color: #292929;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 72px;
+        letter-spacing: -1.2px;
+    }
+
+    .our-exclusive-estates-container h2 {
+        color: #656565;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        margin-top: -20px;
+    }
+
+    .estates {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .estates img {
+        width: 150px;
+        height: auto;
+    }
+
+    .comment-section {
+        background: #fff5f5;
+        display: flex;
+        width: 100%;
+        padding: 96px 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .post {
+        display: grid;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .post img:nth-child(1) {
+        width: 280px;
+        height: auto;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+
+    .post img:nth-child(2) {
+        width: 300px;
+        height: auto;
+        margin-right: 40px;
+    }
+
+    .our-impact-container {
+        display: flex;
+        width: 100%;
+        padding: 96px 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 64px;
+    }
+
+    .our-impact-container h1 {
+        color: #101828;
+        text-align: center;
+        font-family: Inter, sans-serif;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 44px;
+        letter-spacing: -0.72px;
+    }
+
+    .our-impact-container h2 {
+        color: #656565;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        margin-top: -50px;
+    }
+
+    .our-impact-container img {
+        width: 280px;
+        height: auto;
+    }
+
+    .protect-container img {
+        width: 100%;
+    }
+
+    .contact-us-container {
+        display: flex;
+        padding: 96px 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+        background: #fff5f5;
+        width: 100%;
+        margin-top: -6px;
+    }
+
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        align-self: stretch;
+    }
+
+    .contact-info h2 {
+        color: #7D0007;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+    }
+
+    .contact-info h1 {
+        color: #292929;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 44px;
+        letter-spacing: -0.72px;
+    }
+
+    .contact-info h3 {
+        color: #656565;
+        text-align: center;
+        font-family: Inter, sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+
+    .contacts {
+        display: grid;
+        place-items: center;
+    }
+
+    .contacts img {
+        margin-top: 50px;
+    }
+
+    .contacts img:nth-child(2) {
+        width: 280px;
+    }
+
+    .footer {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .footer-logo {
+        width: 120px;
+        height: auto;
+        margin: 80px auto 20px;
+        display: block;
+    }
+
+    .first-footer-section {
+        display: grid;
+        margin-top: 50px;
+        text-align: center;
+        place-content: center;
+    }
+
+    .first-footer-section a {
+        text-decoration: none;
+        color: #656565;
+        font-family: Poppins, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    .first-footer-section a:hover {
+        color: #7d0007;
+    }
+
+    .second-footer-section {
+        padding-top: 32px;
+        border-top: 1px solid #EAECF0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .second-footer-section h3 {
+        color: #7C7C7C;
+        font-family: Poppins, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        margin-left: 562px;
+        margin-top: 30px;
+    }
+
+    .second-footer-section-links {
+        display: flex;
+        margin-top: 80px;
+    }
+
+    .footer-link {
+        text-decoration: none;
+        color: #7C7C7C;
+        font-family: Poppins, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .footer-link:hover {
+        color: #7d0007;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 812px) {
+    .itech-landing-page {
+        background-color: white;
+        width: 100%;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        overflow: hidden;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 80px;
+        background-color: white;
+    }
+
+    .header-left {
+        display: flex;
+        align-items: center;
+        margin-left: -90px;
+    }
+
+    .company-logo {
+        width: 80px;
+        height: auto;
+        margin-right: 20px;
+    }
+
+    .header-link {
+        text-decoration: none;
+        color: #8f8f8f;
+        font-weight: bold;
+        margin-right: 10px;
+        font-size: 6px;
+        line-height: 6px;
+    }
+
+    .header-link:hover {
+        color: #7d0007;
+    }
+
+    .header-right {
+        display: flex;
+        margin-right: -92px;
+    }
+
+    .sign-up-button,
+    .login-button {
+        background-color: transparent;
+        border: 1px solid #7d0007;
+        color: #7d0007;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 40px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 8px;
+    }
+
+    .sign-up-button {
+        margin-left: 10px;
+    }
+
+    .login-button {
+        margin-left: -10px;
+    }
+
+    .sign-up-button:hover {
+        background-color: #7d0007;
+        color: white;
+    }
+
+    .login-button {
+        background-color: #7d0007;
+        color: white;
+        border: none;
+    }
+
+    .login-button:hover {
+        background-color: white;
+        color: #630006;
+        border: 1px solid #7d0007;
+    }
+
+    .picture-frame-container {
+        position: relative;
+        text-align: center;
+    }
+
+    .picture-frame {
+        width: 98%;
+        height: auto;
+    }
+
+    .picture-content {
+        color: #fff;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        gap: 48px;
+        align-self: stretch;
+    }
+
+    .picture-content h1 {
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 90px;
+        margin-top: -20px;
+    }
+
+    .picture-content h2 {
+        color: #EFEFEF;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 3px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 3px;
+        margin-top: -40px;
+    }
+
+    .picture-content-buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+    }
+
+    .picture-content-buttons {
+        margin-left: 10px;
+
+    }
+
+    .picture-content .sign-up-button {
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 16px;
+        width: 120px;
+        height: auto;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+
+    .picture-content .sign-up-button:hover {
+        background-color: #7d0007;
+        color: white;
+        border: #7d0007;
+    }
+
+    .picture-content .login-button {
+        background-color: #7d0007;
+        border: 1px solid #7d0007;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 16px;
+        width: 120px;
+        height: auto;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+
+    .picture-content .login-button:hover {
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+    }
+
+    .about-itech-container {
+        margin-top: 60px;
+        max-width: 1280px;
+        padding: 0 32px;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+        align-self: stretch;
+    }
+
+    .about-itech-container h1 {
+        color: #292929;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px;
+        letter-spacing: -1.2px;
+    }
+
+    .about-itech-container h2 {
+        margin-top: 20px;
+        color: #656565;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+    }
+
+    .the-team-container {
+        display: grid;
+        place-items: center;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        margin-top: -120px;
+    }
+
+    .the-team-container img {
+        width: 350px;
+        height: auto;
+    }
+
+    .meet-the-team-container {
+        display: flex;
+        width: 100%;
+        padding: 96px 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+        background: #fff5f5;
+        margin-top: -100px;
+    }
+
+    .meet-our-team h1 {
+        color: #292929;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 44px;
+        letter-spacing: -0.72px;
+    }
+
+    .meet-our-team h2 {
+        color: #656565;
+        font-family: Poppins, sans-serif;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        align-self: stretch;
+    }
+
+    .team-heads {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 70px;
+        text-align: center;
+    }
+
+    .team-heads img {
+        width: 350px;
+        height: auto;
+    }
+
+    .rest-of-the-team {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .rest-of-the-team img {
+        width: 350px;
+        height: auto;
+    }
+
+    .our-exclusive-estates-container {
+        display: flex;
+        padding: 96px 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+        align-self: stretch;
+    }
+
+    .our-exclusive-estates-container h1 {
+        color: #292929;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 72px;
+        letter-spacing: -1.2px;
+    }
+
+    .our-exclusive-estates-container h2 {
+        color: #656565;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        margin-top: -20px;
+    }
+
+    .estates {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .estates img {
+        width: 150px;
+        height: auto;
+    }
+
+    .comment-section {
+        background: #fff5f5;
+        display: flex;
+        width: 100%;
+        padding: 96px 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .post {
+        display: grid;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .post img:nth-child(1) {
+        width: 280px;
+        height: auto;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+
+    .post img:nth-child(2) {
+        width: 300px;
+        height: auto;
+        margin-right: 40px;
+    }
+
+    .our-impact-container {
+        display: flex;
+        width: 100%;
+        padding: 96px 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 64px;
+    }
+
+    .our-impact-container h1 {
+        color: #101828;
+        text-align: center;
+        font-family: Inter, sans-serif;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 44px;
+        letter-spacing: -0.72px;
+    }
+
+    .our-impact-container h2 {
+        color: #656565;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        margin-top: -50px;
+    }
+
+    .our-impact-container img {
+        width: 320px;
+        height: auto;
+    }
+
+    .protect-container img {
+        width: 100%;
+    }
+
+    .contact-us-container {
+        display: flex;
+        padding: 96px 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+        background: #fff5f5;
+        width: 100%;
+        margin-top: -6px;
+    }
+
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        align-self: stretch;
+    }
+
+    .contact-info h2 {
+        color: #7D0007;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+    }
+
+    .contact-info h1 {
+        color: #292929;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 44px;
+        letter-spacing: -0.72px;
+    }
+
+    .contact-info h3 {
+        color: #656565;
+        text-align: center;
+        font-family: Inter, sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+
+    .contacts {
+        display: grid;
+        place-items: center;
+    }
+
+    .contacts img {
+        margin-top: 50px;
+    }
+
+    .contacts img:nth-child(2) {
+        width: 280px;
+    }
+
+    .footer {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .footer-logo {
+        width: 120px;
+        height: auto;
+        margin: 80px auto 20px;
+        display: block;
+    }
+
+    .first-footer-section {
+        display: grid;
+        margin-top: 50px;
+        text-align: center;
+        place-content: center;
+    }
+
+    .first-footer-section a {
+        text-decoration: none;
+        color: #656565;
+        font-family: Poppins, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    .first-footer-section a:hover {
+        color: #7d0007;
+    }
+
+    .second-footer-section {
+        padding-top: 32px;
+        border-top: 1px solid #EAECF0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .second-footer-section h3 {
+        color: #7C7C7C;
+        font-family: Poppins, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        margin-left: 562px;
+        margin-top: 30px;
+    }
+
+    .second-footer-section-links {
+        display: flex;
+        margin-top: 80px;
+    }
+
+    .footer-link {
+        text-decoration: none;
+        color: #7C7C7C;
+        font-family: Poppins, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .footer-link:hover {
+        color: #7d0007;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px ) {
+    .itech-landing-page {
+        background-color: white;
+        width: 100%;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        overflow: hidden;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 80px;
+        background-color: white;
+    }
+
+    .header-left {
+        display: flex;
+        align-items: center;
+        margin-left: -85px;
+    }
+
+    .company-logo {
+        width: 60px;
+        height: auto;
+        margin-right: 20px;
+    }
+
+    .header-link {
+        text-decoration: none;
+        color: #8f8f8f;
+        font-weight: bold;
+        margin-right: 20px;
+        font-size: 8px;
+        line-height: 10px;
+    }
+
+    .header-link:hover {
+        color: #7d0007;
+    }
+
+    .header-right {
+        display: flex;
+        margin-left: -5px;
+    }
+
+    .sign-up-button,
+    .login-button {
+        background-color: transparent;
+        border: 1px solid #7d0007;
+        color: #7d0007;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .sign-up-button:hover {
+        background-color: #7d0007;
+        color: white;
+    }
+
+    .login-button {
+        background-color: #7d0007;
+        color: white;
+        border: none;
+    }
+
+    .login-button:hover {
+        background-color: white;
+        color: #630006;
+        border: 1px solid #7d0007;
+    }
+
+    .picture-frame-container {
+        position: relative;
+        text-align: center;
+    }
+
+    .picture-frame {
+        width: 98%;
+        height: auto;
+    }
+
+    .picture-content {
+        color: #fff;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        gap: 48px;
+        align-self: stretch;
+    }
+
+    .picture-content h1 {
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 90px;
+        width: 900px;
+    }
+
+    .picture-content h2 {
+        color: #EFEFEF;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 7px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px;
+        margin-top: -30px;
+    }
+
+    .picture-content-buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .picture-content-buttons button {
+        margin: 0 10px;
+    }
+
+    .picture-content .sign-up-button {
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 16px;
+        width: 165px;
+        height: 44px;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+
+    .picture-content .sign-up-button:hover {
+        background-color: #7d0007;
+        color: white;
+        border: #7d0007;
+    }
+
+    .picture-content .login-button {
+        background-color: #7d0007;
+        border: 1px solid #7d0007;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 16px;
+        width: 165px;
+        height: 44px;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+
+    .picture-content .login-button:hover {
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+    }
+
+    .about-itech-container {
+        margin-top: 60px;
+        max-width: 1280px;
+        padding: 0 32px;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+        align-self: stretch;
+    }
+
+    .about-itech-container h1 {
+        color: #292929;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px;
+        letter-spacing: -1.2px;
+    }
+
+    .about-itech-container h2 {
+        margin-top: 20px;
+        color: #656565;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+    }
+
+    .the-team-container {
+        display: grid;
+        place-items: center;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        margin-top: -150px;
+    }
+
+    .the-team-container img {
+        width: 450px;
+        height: auto;
+    }
+
+    .meet-the-team-container {
+        display: flex;
+        width: 100%;
+        padding: 96px 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+        background: #fff5f5;
+        margin-top: -100px;
+    }
+
+    .meet-our-team h1 {
+        color: #292929;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 44px;
+        letter-spacing: -0.72px;
+    }
+
+    .meet-our-team h2 {
+        color: #656565;
+        font-family: Poppins, sans-serif;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        align-self: stretch;
+    }
+
+    .team-heads {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 70px;
+        text-align: center;
+    }
+
+    .team-heads img {
+        width: 460px;
+        height: auto;
+    }
+
+    .rest-of-the-team {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .rest-of-the-team img {
+        width: 460px;
+        height: auto;
+    }
+
+    .our-exclusive-estates-container {
+        display: flex;
+        padding: 96px 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+        align-self: stretch;
+    }
+
+    .our-exclusive-estates-container h1 {
+        color: #292929;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 72px;
+        letter-spacing: -1.2px;
+    }
+
+    .our-exclusive-estates-container h2 {
+        color: #656565;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        margin-top: -20px;
+    }
+
+    .estates {
+        display: flex;
+        align-items: center;
+    }
+
+    .estates img {
+        width: 150px;
+        height: auto;
+    }
+
+    .comment-section {
+        background: #fff5f5;
+        display: flex;
+        width: 100%;
+        padding: 96px 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .post {
+        display: grid;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .post img:nth-child(1) {
+        width: 350px;
+        height: auto;
+        margin-left: 120px;
+        margin-bottom: 20px;
+    }
+
+    .post img:nth-child(2) {
+        width: 500px;
+        height: auto;
+        margin-right: 90px;
+    }
+
+    .our-impact-container {
+        display: flex;
+        width: 100%;
+        padding: 96px 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 64px;
+    }
+
+    .our-impact-container h1 {
+        color: #101828;
+        text-align: center;
+        font-family: Inter, sans-serif;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 44px;
+        letter-spacing: -0.72px;
+    }
+
+    .our-impact-container h2 {
+        color: #656565;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        margin-top: -50px;
+    }
+
+    .our-impact-container img {
+        width: 430px;
+        height: auto;
+    }
+
+    .protect-container img {
+        width: 100%;
+    }
+
+    .contact-us-container {
+        display: flex;
+        padding: 96px 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+        background: #fff5f5;
+        width: 100%;
+        margin-top: -6px;
+    }
+
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        align-self: stretch;
+    }
+
+    .contact-info h2 {
+        color: #7D0007;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+    }
+
+    .contact-info h1 {
+        color: #292929;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 44px;
+        letter-spacing: -0.72px;
+    }
+
+    .contact-info h3 {
+        color: #656565;
+        text-align: center;
+        font-family: Inter, sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+
+    .contacts {
+        display: grid;
+        place-items: center;
+    }
+
+    .contacts img {
+        margin-top: 50px;
+    }
+
+    .footer {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .footer-logo {
+        width: 120px;
+        height: auto;
+        margin: 80px auto 20px;
+        display: block;
+    }
+
+    .first-footer-section {
+        display: grid;
+        margin-top: 50px;
+        text-align: center;
+        place-content: center;
+    }
+
+    .first-footer-section a {
+        text-decoration: none;
+        color: #656565;
+        font-family: Poppins, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    .first-footer-section a:hover {
+        color: #7d0007;
+    }
+
+    .second-footer-section {
+        padding-top: 32px;
+        border-top: 1px solid #EAECF0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .second-footer-section h3 {
+        color: #7C7C7C;
+        font-family: Poppins, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        margin-left: 562px;
+        margin-top: 30px;
+    }
+
+    .second-footer-section-links {
+        display: flex;
+        margin-top: 80px;
+    }
+
+    .footer-link {
+        text-decoration: none;
+        color: #7C7C7C;
+        font-family: Poppins, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .footer-link:hover {
+        color: #7d0007;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px ) {
+    .itech-landing-page {
+        background-color: white;
+        width: 100%;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        overflow: hidden;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 80px;
+        background-color: white;
+    }
+
+    .header-left {
+        display: flex;
+        align-items: center;
+        margin-left: -50px;
+    }
+
+    .company-logo {
+        width: 80px;
+        height: auto;
+        margin-right: 20px;
+    }
+
+    .header-link {
+        text-decoration: none;
+        color: #8f8f8f;
+        font-weight: bold;
+        margin-right: 20px;
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .header-link:hover {
+        color: #7d0007;
+    }
+
+    .header-right {
+        display: flex;
+        margin-right: -50px;
+    }
+
+    .sign-up-button,
+    .login-button {
+        background-color: transparent;
+        border: 1px solid #7d0007;
+        color: #7d0007;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 30px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .sign-up-button:hover {
+        background-color: #7d0007;
+        color: white;
+    }
+
+    .login-button {
+        background-color: #7d0007;
+        color: white;
+        border: none;
+    }
+
+    .login-button:hover {
+        background-color: white;
+        color: #630006;
+        border: 1px solid #7d0007;
+    }
+
+    .picture-frame-container {
+        position: relative;
+        text-align: center;
+    }
+
+    .picture-frame {
+        width: 98%;
+        height: auto;
+    }
+
+    .picture-content {
+        color: #fff;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        gap: 48px;
+        align-self: stretch;
+    }
+
+    .picture-content h1 {
+        color: #FFF;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 90px;
+        width: 900px;
+    }
+
+    .picture-content h2 {
+        color: #EFEFEF;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px;
+        margin-top: -30px;
+    }
+
+    .picture-content-buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .picture-content-buttons button {
+        margin: 0 10px;
+    }
+
+    .picture-content .sign-up-button {
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 16px;
+        width: 165px;
+        height: 44px;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+
+    .picture-content .sign-up-button:hover {
+        background-color: #7d0007;
+        color: white;
+        border: #7d0007;
+    }
+
+    .picture-content .login-button {
+        background-color: #7d0007;
+        border: 1px solid #7d0007;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 16px;
+        width: 165px;
+        height: 44px;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+
+    .picture-content .login-button:hover {
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+    }
+
+    .about-itech-container {
+        margin-top: 60px;
+        max-width: 1280px;
+        padding: 0 32px;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+        align-self: stretch;
+    }
+
+    .about-itech-container h1 {
+        color: #292929;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px;
+        letter-spacing: -1.2px;
+    }
+
+    .about-itech-container h2 {
+        margin-top: 20px;
+        color: #656565;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+    }
+
+    .the-team-container {
+        display: grid;
+        place-items: center;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        margin-top: -150px;
+    }
+
+    .the-team-container img {
+        width: 700px;
+        height: auto;
+    }
+
+    .meet-the-team-container {
+        display: flex;
+        width: 100%;
+        padding: 96px 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+        background: #fff5f5;
+        margin-top: -100px;
+    }
+
+    .meet-our-team h1 {
+        color: #292929;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 44px;
+        letter-spacing: -0.72px;
+    }
+
+    .meet-our-team h2 {
+        color: #656565;
+        font-family: Poppins, sans-serif;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        align-self: stretch;
+    }
+
+    .team-heads {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 70px;
+        text-align: center;
+    }
+
+    .team-heads img {
+        width: 700px;
+        height: auto;
+    }
+
+    .rest-of-the-team {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .rest-of-the-team img {
+        width: 700px;
+        height: auto;
+    }
+
+    .our-exclusive-estates-container {
+        display: flex;
+        padding: 96px 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+        align-self: stretch;
+    }
+
+    .our-exclusive-estates-container h1 {
+        color: #292929;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 72px;
+        letter-spacing: -1.2px;
+    }
+
+    .our-exclusive-estates-container h2 {
+        color: #656565;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        margin-top: -20px;
+    }
+
+    .estates {
+        display: flex;
+        align-items: center;
+    }
+
+    .estates img {
+        width: 150px;
+        height: auto;
+    }
+
+    .comment-section {
+        background: #fff5f5;
+        display: flex;
+        width: 100%;
+        padding: 96px 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .post {
+        display: grid;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .post img:nth-child(1) {
+        width: 350px;
+        height: auto;
+        margin-left: 90px;
+        margin-bottom: 20px;
+    }
+
+    .post img:nth-child(2) {
+        width: 500px;
+        height: auto;
+        margin-right: 30px;
+    }
+
+    .our-impact-container {
+        display: flex;
+        width: 100%;
+        padding: 96px 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 64px;
+    }
+
+    .our-impact-container h1 {
+        color: #101828;
+        text-align: center;
+        font-family: Inter, sans-serif;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 44px;
+        letter-spacing: -0.72px;
+    }
+
+    .our-impact-container h2 {
+        color: #656565;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        margin-top: -50px;
+    }
+
+    .our-impact-container img {
+        width: 600px;
+        height: auto;
+    }
+
+    .protect-container img {
+        width: 100%;
+    }
+
+    .contact-us-container {
+        display: flex;
+        padding: 96px 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+        background: #fff5f5;
+        width: 100%;
+        margin-top: -6px;
+    }
+
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        align-self: stretch;
+    }
+
+    .contact-info h2 {
+        color: #7D0007;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+    }
+
+    .contact-info h1 {
+        color: #292929;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 44px;
+        letter-spacing: -0.72px;
+    }
+
+    .contact-info h3 {
+        color: #656565;
+        text-align: center;
+        font-family: Inter, sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+
+    .contacts {
+        display: grid;
+        place-items: center;
+    }
+
+    .contacts img {
+        margin-top: 50px;
+    }
+
+    .footer {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .footer-logo {
+        width: 180px;
+        height: auto;
+        margin: 80px auto 20px;
+        display: block;
+    }
+
+    .first-footer-section {
+        display: grid;
+        margin-top: 50px;
+        text-align: center;
+        place-content: center;
+    }
+
+    .first-footer-section a {
+        text-decoration: none;
+        color: #656565;
+        font-family: Poppins, sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    .first-footer-section a:hover {
+        color: #7d0007;
+    }
+
+    .second-footer-section {
+        padding-top: 32px;
+        border-top: 1px solid #EAECF0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .second-footer-section h3 {
+        color: #7C7C7C;
+        font-family: Poppins, sans-serif;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 34px;
+        margin-left: 562px;
+        margin-top: 30px;
+    }
+
+    .second-footer-section-links {
+        display: flex;
+        margin-top: 80px;
+    }
+
+    .footer-link {
+        text-decoration: none;
+        color: #7C7C7C;
+        font-family: Poppins, sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .footer-link:hover {
+        color: #7d0007;
+    }
+}
