@@ -8,7 +8,10 @@ import theTeam from '../assets/images/TheTeam.svg';
 import managingDirector from '../assets/images/ManagingDirector.svg';
 import managingPartner from '../assets/images/ManagingPartner.svg';
 import chiefOperationsOfficer from '../assets/images/ChiefOperationsOfficer.svg';
-import theRemainingTeam from '../assets/images/TheRestOfTheTeam.png';
+import creativeDirector from "../assets/images/CreativeDirector.svg";
+import brandStrategist from "../assets/images/BrandStrategist.svg";
+import videoPresenter from "../assets/images/VideoPresenter.svg";
+import brandDesigner from "../assets/images/BrandAndMarketingDesigner.svg";
 import ileri from '../assets/images/Ileri.svg';
 import grandeEstate from '../assets/images/GrandeEstate.svg';
 import user from '../assets/images/User.svg';
@@ -32,9 +35,6 @@ const LandingPage = () => {
             <div className="picture-frame-container" data-aos="fade-up">
                 <img src={pictureFrame} alt="Frame" className="picture-frame" />
                 <div className="picture-content">
-                    <h1 className="text-white" data-aos="fade-up">Affordable living meets technological innovation</h1>
-                    <h2 className="text-white " data-aos="fade-up">We've made real estate accessible to everyone through a secure and straightforward approach, ensuring
-                        profitable <br/> outcomes for all.</h2>
                     <div className="picture-content-buttons" data-aos="fade-up">
                         <button className="sign-up-button btn btn-primary me-3">Sign up as agent</button>
                         <button className="login-button btn btn-outline-primary">Get started</button>
@@ -68,7 +68,10 @@ const LandingPage = () => {
                         <img src={chiefOperationsOfficer} alt="COO" className="img-fluid" data-aos="fade-up" />
                     </div>
                     <div className="rest-of-the-team" data-aos="fade-up">
-                        <img src={theRemainingTeam} alt="Others" className="img-fluid" />
+                        <img src={creativeDirector} alt="Creative Director" className="img-fluid" data-aos="fade-up"/>
+                        <img src={brandStrategist} alt="Brand Strategist" className="img-fluid" data-aos="fade-up"/>
+                        <img src={videoPresenter} alt="Video Presenter" className="img-fluid" data-aos="fade-up"/>
+                        <img src={brandDesigner} alt="Brand Designer" className="img-fluid" data-aos="fade-up"/>
                     </div>
                 </div>
             </div>
