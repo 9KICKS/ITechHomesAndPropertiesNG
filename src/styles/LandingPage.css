@@ -723,7 +723,7 @@
     }
 }
 
-@media (max-width: 1026px) {
+@media (min-width: 712px) and (max-width: 1024px) {
     .itech-landing-page {
         background-color: white;
         width: 100%;
