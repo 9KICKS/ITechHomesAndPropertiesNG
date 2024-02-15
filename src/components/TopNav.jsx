@@ -23,7 +23,7 @@ const TopNav = () => {
                         <Nav.Link href="#our-contact">Our Contact</Nav.Link>
                     </Nav>
                     <div className="d-lg-none mb-2" style={{display: "grid", placeItems: "center"}}>
-                        <Button className="sign-up-button btn btn-primary w-30" style={{marginRight: "20px"}}>Sign up as agent</Button>
+                        <Button className="sign-up-button btn btn-primary w-30">Sign up as agent</Button>
                         <Button className="login-button btn btn-outline-primary w-30 mt-2">Login</Button>
                     </div>
                     <div className="d-none d-lg-flex flex-column flex-lg-row justify-content-between">
