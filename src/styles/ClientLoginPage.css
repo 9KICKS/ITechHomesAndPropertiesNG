@@ -98,6 +98,33 @@
     margin: 20px auto;
 }
 
+.custom-button {
+    width: 340px;
+    height: 40px;
+    border-radius: 8px;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: -10px;
+}
+
+.sign-in-button {
+    border: 1px solid #7D0007;
+    background: #7D0007;
+    color: #FFF;
+    box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+}
+
+.google-sign-in-button {
+    border: 1px solid #D0D5DD;
+    background: white;
+    color: #344054;
+    box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+    margin-top: 15px;
+}
+
 @media (max-width: 765px) {
     .container {
         justify-content: center;
@@ -107,13 +134,10 @@
 
     .page-content {
         display: flex;
-        max-width: 1280px;
         padding: 0 32px;
-        flex-direction: column;
-        align-items: center;
         gap: 32px;
         align-self: stretch;
-        margin-top: 100px;
+        margin-top: 60px;
     }
 
     .col-md-6 {
@@ -165,14 +189,12 @@
         font-style: normal;
         font-weight: 400;
         line-height: 24px;
-        width: 340px;
+        width: 250px;
         margin-top: 10px;
     }
 
     .form-group-container {
         display: flex;
-        flex-direction: column;
-        align-items: center;
     }
 
     .remember-me-checkbox {
@@ -195,7 +217,34 @@
 
     .remember-me-and-forgot-password {
         display: flex;
-        width: 340px;
+        width: 250px;
         margin: 20px auto;
+    }
+
+    .custom-button {
+        width: 250px;
+        height: 40px;
+        border-radius: 8px;
+        font-family: Inter, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        margin: 0 auto;
+    }
+
+    .sign-in-button {
+        border: 1px solid #7D0007;
+        background: #7D0007;
+        color: #FFF;
+        box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+    }
+
+    .google-sign-in-button {
+        border: 1px solid #D0D5DD;
+        background: white;
+        color: #344054;
+        box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+        margin-top: 15px;
     }
 }
