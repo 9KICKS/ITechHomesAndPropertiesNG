@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Form, Button } from 'react-bootstrap';
+import { Form } from 'react-bootstrap';
 import "../styles/ClientLoginPage.css";
 import iTechLogo from '../assets/images/iTechLogo.svg';
 
@@ -60,13 +60,13 @@ const ClientLoginPage = () => {
                             <a href="#" className="forgot-password-link">Forgot password</a>
                         </div>
 
-                        <Button type="submit" style={{ width: "340px", borderRadius: "8px", border: "1px solid #7D0007", background: "#7D0007", boxShadow: "0 1px 2px 0 rgba(16, 24, 40, 0.05)", color: "#FFF", fontFamily: "Inter, sans-serif", fontSize: "16px", fontStyle: "normal", fontWeight: 600, lineHeight: "24px", marginTop: "-10px" }}>
+                        <button type="submit" className="custom-button sign-in-button">
                             Sign In
-                        </Button>
+                        </button>
 
-                        <Button type="button" style={{ width: "340px", marginTop: "15px", borderRadius: "8px", border: "1px solid #D0D5DD", background: "white", boxShadow: "0 1px 2px 0 rgba(16, 24, 40, 0.05)", color: "#344054", fontFamily: "Inter, sans-serif", fontSize: "16px", fontStyle: "normal", fontWeight: 600, lineHeight: "24px" }}>
+                        <button type="button" className="custom-button google-sign-in-button">
                             Sign in with Google
-                        </Button>
+                        </button>
                     </Form>
                 </div>
             </div>
