@@ -7,10 +7,10 @@ import OTPPage from "./components/OTPPage";
 function App() {
   return (
     <div className="App">
-      {/*<LandingPage />*/}
+      <LandingPage />
       {/*<ClientLoginPage />*/}
       {/*<ForgotPassword />*/}
-      <OTPPage />
+      {/*<OTPPage />*/}
     </div>
   );
 }
