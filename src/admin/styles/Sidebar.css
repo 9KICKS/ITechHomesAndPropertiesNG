@@ -1,0 +1,58 @@
+.sidebar {
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 280px;
+    height: 100vh;
+    padding: 0;
+    border-right: 1px solid;
+    background-color: white;
+}
+
+.sidebar .p-3 {
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 1px;
+}
+
+.sidebar .nav {
+    margin-top: 70px;
+}
+
+.nav-item .btn {
+    margin-left: 15px;
+    margin-top: 10px;
+    width: 250px;
+    height: auto;
+    border-radius: 0.25rem;
+    background-color: whitesmoke;
+    border: none;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #c0c0c0;
+}
+
+.nav-item .btn svg {
+    fill: #c0c0c0;
+}
+
+.nav-item .btn:hover {
+    background-color: #7d0007;
+    color: white;
+}
+
+.nav-item .btn:hover svg {
+    fill: white;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        border-right: none;
+    }
+}
