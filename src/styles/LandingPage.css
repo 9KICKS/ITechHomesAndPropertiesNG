@@ -192,12 +192,8 @@
 }
 
 .rest-of-the-team img {
-    width: 300px;
+    width: 400px;
     height: auto;
-}
-
-.rest-of-the-team img:nth-child(2) {
-    padding-top: 30px;
 }
 
 .our-exclusive-estates-container {
