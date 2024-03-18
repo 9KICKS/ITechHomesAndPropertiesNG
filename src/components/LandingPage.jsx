@@ -10,7 +10,6 @@ import managingPartner from '../assets/images/ManagingPartner.svg';
 import chiefOperationsOfficer from '../assets/images/ChiefOperationsOfficer.svg';
 import creativeDirector from "../assets/images/CreativeDirector.svg";
 import brandStrategist from "../assets/images/BrandStrategist.svg";
-import videoPresenter from "../assets/images/VideoPresenter.svg";
 import brandDesigner from "../assets/images/BrandAndMarketingDesigner.svg";
 import ileri from '../assets/images/Ileri.svg';
 import grandeEstate from '../assets/images/GrandeEstate.svg';
@@ -70,7 +69,6 @@ const LandingPage = () => {
                     <div className="rest-of-the-team" data-aos="fade-up">
                         <img src={creativeDirector} alt="Creative Director" className="img-fluid" data-aos="fade-up"/>
                         <img src={brandStrategist} alt="Brand Strategist" className="img-fluid" data-aos="fade-up"/>
-                        <img src={videoPresenter} alt="Video Presenter" className="img-fluid" data-aos="fade-up"/>
                         <img src={brandDesigner} alt="Brand Designer" className="img-fluid" data-aos="fade-up"/>
                     </div>
                 </div>
