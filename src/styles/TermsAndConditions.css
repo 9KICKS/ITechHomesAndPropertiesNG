@@ -50,3 +50,36 @@
     margin-bottom: 30px;
     margin-top: 10px;
 }
+
+@media (max-width: 765px) {
+    .terms-conditions-page {
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-self: stretch;
+        width: 340px;
+        margin: 0 auto;
+    }
+
+    .terms-conditions-page h1, h2 {
+        color: #3D3D3D;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 38px;
+    }
+
+    .terms-conditions-page p {
+        color: #7C7C7C;
+        text-align: center;
+        font-family: Poppins, sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+}
