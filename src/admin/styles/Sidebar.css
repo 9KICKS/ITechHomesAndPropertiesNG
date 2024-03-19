@@ -40,11 +40,13 @@
     fill: #c0c0c0;
 }
 
+.nav-item .btn.active,
 .nav-item .btn:hover {
     background-color: #7d0007;
     color: white;
 }
 
+.nav-item .btn.active svg,
 .nav-item .btn:hover svg {
     fill: white;
 }

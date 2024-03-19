@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { ReactComponent as CompanyLogo } from '../../assets/images/iTechLogo.svg';
 import '../styles/Sidebar.css';
 
 const Sidebar = ({ setActivePage }) => {
+    const [activeNav, setActiveNav] = useState('');
+
+    const handleNavClick = (nav) => {
+        setActiveNav(nav);
+        setActivePage(nav);
+    };
+
     return (
         <div className="d-flex flex-column sidebar">
             <div className="p-3">
