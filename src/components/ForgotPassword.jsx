@@ -3,8 +3,15 @@ import { Form } from 'react-bootstrap';
 import "../styles/ForgotPassword.css";
 import iTechLogo from '../assets/images/iTechLogo.svg';
 import backButton from "../assets/images/BackButton.svg";
+import {useNavigate} from "react-router-dom";
 
 const ForgotPassword = () => {
+    const navigate = useNavigate();
+
+    const handleBackClick = () => {
+        navigate('/login');
+    };
+
     const [email, setEmail] = useState('');
 
     const handleLogin = (e) => {
@@ -37,7 +44,7 @@ const ForgotPassword = () => {
                             Reset password
                         </button>
 
-                        <button type="button" className="custom-button back-to-login-button">
+                        <button type="button" onClick={handleBackClick} className="custom-button back-to-login-button">
                             <img src={backButton} alt="Back" className="back-button-svg"/>
                             Back to log in
                         </button>
