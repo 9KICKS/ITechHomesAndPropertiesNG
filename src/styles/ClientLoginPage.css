@@ -12,7 +12,7 @@
     align-items: center;
     gap: 32px;
     align-self: stretch;
-    margin-top: 100px;
+    margin-bottom: 30px;
 }
 
 .col-md-6 {
@@ -123,6 +123,19 @@
     color: #344054;
     box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
     margin-top: 15px;
+}
+
+.no-account {
+    display: block;
+    width: 100%;
+    color: #3D3D3D;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    margin-top: -15px;
+    margin-bottom: -10px;
 }
 
 @media (max-width: 765px) {

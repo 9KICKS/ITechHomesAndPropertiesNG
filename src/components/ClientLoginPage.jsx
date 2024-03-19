@@ -57,7 +57,11 @@ const ClientLoginPage = () => {
                                     className="remember-me-checkbox"
                                 />
                             </Form.Group>
-                            <a href="#" className="forgot-password-link">Forgot password</a>
+                            <a href="/forgot-password" className="forgot-password-link">Forgot password</a>
+                        </div>
+
+                        <div className="no-account">
+                            Don't have an account? <a href="/signup" className="custom-link">Sign Up</a>
                         </div>
 
                         <button type="submit" className="custom-button sign-in-button">
