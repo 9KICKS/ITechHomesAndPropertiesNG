@@ -1,10 +1,17 @@
 import React from "react";
 import { Container, Nav, Navbar, Button } from "react-bootstrap";
 import { NavDropdown } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 import "../styles/TopNav.css";
 import iTechLogo from "../assets/images/iTechLogo.svg";
 
 const TopNav = () => {
+    const navigate = useNavigate();
+
+    const handleLoginClick = () => {
+        navigate('/login');
+    };
+
     return (
         <Navbar className="navbar" expand="lg">
             <Container>
@@ -29,7 +36,7 @@ const TopNav = () => {
                     <div className="d-none d-lg-flex flex-column flex-lg-row justify-content-between">
                         <Button className="sign-up-button btn btn-primary mb-2">Sign up as agent</Button>
                         <span className="buttons-space"></span>
-                        <Button className="login-button btn btn-outline-primary">Login</Button>
+                        <Button className="login-button btn btn-outline-primary" onClick={handleLoginClick}>Login</Button>
                     </div>
                 </Navbar.Collapse>
             </Container>
