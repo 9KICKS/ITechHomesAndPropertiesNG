@@ -5,6 +5,7 @@ import ClientLoginPage from './components/ClientLoginPage';
 import ClientSignUpPage from "./components/ClientSignUpPage";
 import TermsAndConditions from "./components/TermsAndConditions";
 import PrivacyPolicy from "./components/PrivacyPolicy";
+import ForgotPassword from "./components/ForgotPassword";
 
 function AppRoute() {
     return (
@@ -16,6 +17,7 @@ function AppRoute() {
                     <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
                     <Route path="/privacy-policy" element={<PrivacyPolicy />} />
                     <Route path="/login" element={<ClientLoginPage />} />
+                    <Route path="/forgot-password" element={<ForgotPassword />} />
                 </Routes>
             </Router>
         </div>
