@@ -7,12 +7,12 @@
 .page-content {
     display: flex;
     max-width: 1280px;
-    padding: 0 32px;
     flex-direction: column;
     align-items: center;
     gap: 32px;
     align-self: stretch;
-    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .col-md-6 {
@@ -74,30 +74,6 @@
     align-items: center;
 }
 
-.remember-me-checkbox {
-    color: #344054;
-    font-family: Inter, sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    margin-right: auto;
-}
-
-.forgot-password-link {
-    color: #7D0007;
-    font-family: Inter, sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-.remember-me-and-forgot-password {
-    display: flex;
-    width: 340px;
-    margin: 20px auto;
-}
-
 .custom-button {
     width: 340px;
     height: 40px;
@@ -123,6 +99,41 @@
     color: #344054;
     box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
     margin-top: 15px;
+}
+
+.already-have-account {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #3D3D3D;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.agreement-text {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #3D3D3D;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.custom-link {
+    color: #7d0007;
+    text-decoration: none;
+}
+
+.custom-link:hover {
+    text-decoration: underline;
 }
 
 @media (max-width: 765px) {
@@ -195,30 +206,6 @@
 
     .form-group-container {
         display: flex;
-    }
-
-    .remember-me-checkbox {
-        color: #344054;
-        font-family: Inter, sans-serif;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 500;
-        margin-right: auto;
-    }
-
-    .forgot-password-link {
-        color: #7D0007;
-        font-family: Inter, sans-serif;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 600;
-        text-decoration: none;
-    }
-
-    .remember-me-and-forgot-password {
-        display: flex;
-        width: 250px;
-        margin: 20px auto;
     }
 
     .custom-button {
