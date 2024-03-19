@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import '../styles/LandingPage.css';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
+import { useNavigate } from 'react-router-dom';
 import iTechLogo from '../assets/images/iTechLogo.svg';
 import pictureFrame from '../assets/images/PictureFrame.svg';
 import theTeam from '../assets/images/TheTeam.svg';
@@ -23,6 +24,12 @@ import phone from '../assets/images/Phone.svg';
 import TopNav from "./TopNav";
 
 const LandingPage = () => {
+    const navigate = useNavigate();
+
+    const handleLoginClick = () => {
+        navigate('/signup');
+    };
+
     useEffect(() => {
         AOS.init({ duration: 1000 });
     }, []);
@@ -36,7 +43,7 @@ const LandingPage = () => {
                 <div className="picture-content">
                     <div className="picture-content-buttons" data-aos="fade-up">
                         <button className="sign-up-button btn btn-primary me-3">Sign up as agent</button>
-                        <button className="login-button btn btn-outline-primary">Get started</button>
+                        <button onClick={handleLoginClick} className="login-button btn btn-outline-primary">Get started</button>
                     </div>
                 </div>
             </div>
